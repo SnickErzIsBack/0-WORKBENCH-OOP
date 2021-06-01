@@ -5,19 +5,20 @@ public class App {
         Cat cat1 = new Cat();
 
     System.out.println("blick von außen: " + cat1);
-    cat1.name = "Grizabella";
+    
+    cat1.changeUrName("Grizabella");
     cat1.tellUrAddress();
     cat1.tellUrName();
 
-
     System.out.println("-----------------------------");
 
-        Cat cat2 = new Cat();
+    Cat cat2 = new Cat();
 
     System.out.println("blick von außen: " + cat2);
     cat2.name = "Alonzo";
+    cat2.changeUrName("Alonzo");
     cat2.tellUrAddress();
     cat2.tellUrName();
-
+    
     }
 }
