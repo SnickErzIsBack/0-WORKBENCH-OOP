@@ -7,6 +7,8 @@ public class App {
     System.out.println("blick von außen: " + cat1);
     
     cat1.tellUrName();
+    cat1.tellUrFurColor();
+    cat1.tellUrAge();
         
     System.out.println("-----------------------------");
 
@@ -15,6 +17,8 @@ public class App {
     System.out.println("blick von außen: " + cat2);
     
     cat2.tellUrName();
+    cat2.tellUrFurColor();
+    cat2.tellUrAge();
     
     }
 }

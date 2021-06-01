@@ -18,4 +18,11 @@ public class Cat{
         System.out.println(this.name);
     }
 
+    public void tellUrFurColor() {
+        System.out.println(this.furColor);
+    }
+
+    public void tellUrAge() {
+        System.out.println(this.age);
+    }
 }
