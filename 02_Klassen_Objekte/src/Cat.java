@@ -1,4 +1,4 @@
-import org.graalvm.compiler.lir.aarch64.AArch64ControlFlow.StrategySwitchOp.SwitchClosure;
+import java.lang.System.Logger.Level;
 
 public class Cat 
 {
@@ -7,6 +7,8 @@ public class Cat
     public String furColor;
     public int age;
     public boolean isFemale;
+
+    public int level;
 
     public Cat(String name, String furColor, int age, boolean isFemale) {
         this.name = name;
@@ -38,8 +40,10 @@ public class Cat
     }
 
     public String checkEscalationLevel() {
-        int counter = 1;
-        switch (counter) {
+    
+        this.level++;
+
+        switch (level) {
             case 1:
                 return "This is an inappropriate question!";
             case 2:
