@@ -1,11 +1,12 @@
-public class Tomcat {
+public class Tomcat
+{
     
     // Property | Attribut | Field
     private String name;
     private String furColor;
     private int age;
     
-    public Tomcat(String name, String furColor, int age, boolean isFemale) {
+    public Tomcat(String name, String furColor, int age) {
         this.name = name;
         this.furColor = furColor;
         this.age = age;
@@ -17,10 +18,12 @@ public class Tomcat {
                 return this.name;
             case "#color":
                 return this.furColor;
-            case "#age":
-                return Integer.toString(this.age);
             default:
                 return "ERROR";
         }
+    }
+
+    public String tellYourAge() {
+        return Integer.toString(this.age);        
     }
 } // EoF
