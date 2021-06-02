@@ -6,6 +6,8 @@ public class App {
         ausgabe(cat1.tellYourAttributes("#name"));
         ausgabe(cat1.tellYourAttributes("#color"));
         ausgabe( cat1.tellYourAttributes("#age"));
+        ausgabe( cat1.tellYourAttributes("#age"));
+        ausgabe( cat1.tellYourAttributes("#age"));
     
         System.out.println("-----------------");
         

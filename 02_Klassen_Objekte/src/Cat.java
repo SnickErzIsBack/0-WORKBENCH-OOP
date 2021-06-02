@@ -1,3 +1,5 @@
+import org.graalvm.compiler.lir.aarch64.AArch64ControlFlow.StrategySwitchOp.SwitchClosure;
+
 public class Cat 
 {
     // Property | Attribut | Field
@@ -30,9 +32,22 @@ public class Cat
 
     public String checkCompliance(){
         if (isFemale) {
-            return "This is an inappropriate question";
+            return checkEscalationLevel();
         }else{
             return Integer.toString(this.age);}
     }
 
+    public String checkEscalationLevel() {
+        int counter = 1;
+        switch (counter) {
+            case 1:
+                return "This is an inappropriate question!";
+            case 2:
+                return "I've told you once!";
+            case 3:
+                return "Talk to the hand!";
+            default:
+                return "something else ...";
+        }
+    }
 }
