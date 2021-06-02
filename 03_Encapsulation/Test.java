@@ -1,16 +1,19 @@
 public class Test {
-    
-    private String testStr = "Hallo";
+    private String testStr = "";
 
-    public void sayHi() {
-        System.out.println("hi");
-    }
     // Getter
     public String getTestStr() {
-        return testStr;
+        if (hasPermission()) {
+            return testStr;
+        }
+        return "Sorry, no permission!";
     }
     // Setter
     public void setTestStr(String testStr) {
         this.testStr = testStr;
+    }
+
+    private boolean hasPermission() {
+        return true;
     }
 }
