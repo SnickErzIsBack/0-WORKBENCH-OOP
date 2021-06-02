@@ -1,14 +1,12 @@
-import java.lang.System.Logger.Level;
-
 public class Cat 
 {
     // Property | Attribut | Field
-    public String name;
-    public String furColor;
-    public int age;
-    public boolean isFemale;
+    private String name;
+    private String furColor;
+    private int age;
+    private boolean isFemale;
 
-    public int level;
+    private int level;
 
     public Cat(String name, String furColor, int age, boolean isFemale) {
         this.name = name;
@@ -25,21 +23,19 @@ public class Cat
                 return this.furColor;
             case "#age":
                 return this.checkCompliance();
-                //return String.valueOf(this.age);
-                //return Integer.toString(this.age);
             default:
                 return "ERROR";
         }
     }
 
-    public String checkCompliance(){
+    private String checkCompliance(){
         if (isFemale) {
             return checkEscalationLevel();
         }else{
             return Integer.toString(this.age);}
     }
 
-    public String checkEscalationLevel() {
+    private String checkEscalationLevel() {
     
         this.level++;
 
@@ -51,7 +47,7 @@ public class Cat
             case 3:
                 return "Talk to the hand!";
             default:
-                return "something else ...";
+                return "you insolent son of a bitch!";
         }
     }
 }
