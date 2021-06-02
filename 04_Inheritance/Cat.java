@@ -30,19 +30,13 @@ public class Cat
     private String checkCompliance() {
         if (isFemale) {
             return this.checkEscalationLevel();
-        } else {
-            return Integer.toString(this.age);
-        }
+        }else{
+            return Integer.toString(this.age);}
     }
 
     private String checkEscalationLevel() {
 
-        // 1. --> "This is an inappropriate question!"
-		// 2. --> "I've told you once!"
-		// 3. --> "Talk to the hand!"
-		// 4++. --> "#!?&&%"
-
-         this.level++;
+        this.level++;
 
         switch (level) {
             case 1:
@@ -54,7 +48,5 @@ public class Cat
             default:
                 return "#!?&&%";
         }
-
     }
-
 }
