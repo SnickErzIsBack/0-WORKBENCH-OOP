@@ -9,7 +9,6 @@ public class App {
 	pollMitarbeiter(mitarbeiter1);
 	pollMitarbeiter(mitarbeiter2);
 	pollMitarbeiter(mitarbeiter3);
-
 	}
 
 	private static void pollMitarbeiter(Mitarbeiter ma) {
@@ -22,5 +21,4 @@ public class App {
 	private static void ausgabe(String outStr) {
 		System.out.println(outStr);
 	}
-
 }
