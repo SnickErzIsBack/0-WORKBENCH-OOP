@@ -3,7 +3,7 @@ public class Tomcat extends SuperCat{
     // no properties anymore
        
     public Tomcat(String name, String furColor, int age) {
-      
+        super(name, furColor, age);
     }
 
     public String tellYourAge() {

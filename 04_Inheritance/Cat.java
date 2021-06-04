@@ -3,7 +3,7 @@ public class Cat extends SuperCat{
     private int level; // intern verwendet
 
     public Cat(String name, String furColor, int age) {
-        
+        super(name, furColor, age);
     }
 
     public String tellYourAge(String checkStr) {
