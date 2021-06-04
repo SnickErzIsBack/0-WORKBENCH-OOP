@@ -1,7 +1,7 @@
 public class App {
     
-    public static void main(String[] args) {
-           
+    public static void main(String[] args) {          
+        
         Cat cat1 = new Cat("Grizabella", "white", 29);
         ausgabe(cat1.tellYourAttributes("#name"));
         ausgabe(cat1.tellYourAttributes("#color"));
@@ -17,12 +17,9 @@ public class App {
         ausgabe(tomcat1.tellYourAttributes("#name"));
         ausgabe(tomcat1.tellYourAttributes("#color"));
         ausgabe(tomcat1.tellYourAttributes("#age"));
-
     }
 
     public static void ausgabe(String outputStr) {
       System.out.println(outputStr);  
     }
-
-
 }

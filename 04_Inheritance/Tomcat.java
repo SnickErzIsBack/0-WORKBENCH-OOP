@@ -1,6 +1,5 @@
 public class Tomcat
 {
-    
     // Property | Attribut | Field
     private String name;
     private String furColor;

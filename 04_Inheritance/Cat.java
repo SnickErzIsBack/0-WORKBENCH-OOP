@@ -23,14 +23,12 @@ public class Cat
         }
     }
 
-    private String tellYourAge() {
+    public String tellYourAge(String checkStr) {
         return this.checkEscalationLevel();
     }
 
     private String checkEscalationLevel() {
-
         this.level++;
-
         switch (level) {
             case 1:
                 return "This is an inappropriate question!";
