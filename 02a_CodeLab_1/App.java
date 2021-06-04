@@ -15,7 +15,6 @@ public class App {
         konto3.updateKontostand(10);
 
         pollAccounts(konto1,konto2,konto3);
-
     }
 
     private static void pollAccounts(Konto k1, Konto k2, Konto k3) {
