@@ -1,26 +1,9 @@
-public class Cat 
-{
+public class Cat extends SuperCat{
     // Property | Attribut | Field
-    private String name;
-    private String furColor;
-    private int age;
     private int level; // intern verwendet
 
     public Cat(String name, String furColor, int age) {
-        this.name = name;
-        this.furColor = furColor;
-        this.age = age;
-    }
-
-    public String tellYourAttributes(String checkStr) {
-        switch (checkStr) {
-            case "#name":
-                return this.name;
-            case "#color":
-                return this.furColor;
-            default:
-                return "ERROR";
-        }
+        
     }
 
     public String tellYourAge(String checkStr) {
