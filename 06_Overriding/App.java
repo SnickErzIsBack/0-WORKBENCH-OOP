@@ -1,5 +1,10 @@
 public class App {
     public static void main(String[] args) {
-       // toDo
+       
+        Child child = new Child();
+        child.sayHello();
+        
+        // child.sayHello("Alexander");
+
     }
 }
