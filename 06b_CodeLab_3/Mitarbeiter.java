@@ -62,7 +62,7 @@ abstract class Mitarbeiter extends Person {
 	
 	// Ausgabe --> advertising
 	private void postingOnSocialMedia() {
-		System.out.println("Hi, I'm " + firstName + " " + name + " and I'm posting a phothograph on IG!");		
+		System.out.println("Hi, I'm " + firstName + " " + name + " and I'm posting a photograph on IG!");		
 	}
 	
 	// Ausgabe --> Default
