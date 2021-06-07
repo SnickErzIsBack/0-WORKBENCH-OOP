@@ -40,7 +40,6 @@ abstract class Person {
 		this.birthYear = birthYear;
 	}
 
-    // public void tellAboutYou(String) {
-        
-    // }
+    // public void tellAboutYou(String) {}
+    
 }//EoF

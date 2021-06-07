@@ -16,7 +16,7 @@ abstract class Mitarbeiter extends Person {
 		this.hiredYear = hiredYear;
 	}
 
-	// * @param flag // zB #manufacturing
+	// @param flag 
 	public void doYourWork(String flag) {
 		
 		switch (flag) {
@@ -35,39 +35,38 @@ abstract class Mitarbeiter extends Person {
 		}
 	}
 		
-	// * Ausgabe2 // Betriebszugehörigkeit
+	// Ausgabe2 // Betriebszugehörigkeit
 	protected void giveOutCoS() {
 		System.out.println("I'm working here for " + (currentYear-hiredYear) + " Years.");		
 	}
 
-	// * Ausgabe3 //  Verhalten Arbeitsbeginn
+	// Ausgabe3 //  Verhalten Arbeitsbeginn
 	protected void startsWork() {
 		System.out.println("Now, I'm starting my work.");		
 	}
 	
-	// * Ausgabe4 // Verhalten Lunch
+	// Ausgabe4 // Verhalten Lunch
 	protected void hasLunch() {
 		System.out.println("Finally, I'm having lunch!");		
 	}
 	
-	// *  Ausgabe --> accounting
+	// Ausgabe --> accounting
 	private void checkAccount() {
 		System.out.println("Hi, I'm " + firstName + " " + name + " and I'm checking a customer's account!");		
 	}
 	
-	// * Ausgabe --> production
+	// Ausgabe --> production
 	private void assembleCar() {
 		System.out.println("Hi, I'm " + firstName + " " + name + " and I'm assembling a car!");		
 	}
 	
-	// * Ausgabe --> advertising
+	// Ausgabe --> advertising
 	private void postingOnSocialMedia() {
 		System.out.println("Hi, I'm " + firstName + " " + name + " and I'm posting a phothograph on IG!");		
 	}
 	
-	// * Ausgabe --> Default
+	// Ausgabe --> Default
 	private void doSomething() {
 		System.out.println("Hi, I'm doing something.");		
 	}
-
 } // EoF
