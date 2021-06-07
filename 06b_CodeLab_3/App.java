@@ -1,9 +1,9 @@
 public class App {
     public static void main(String[] args) {
 		
-		Accounting ma1 = new Accounting("Popow", "Oleg", 1974, "ID002" , "accounting", "accountant",2000);
-		Advertising ma2 = new Advertising("Martinelli", "Silvia", 1985, "ID003" , "advertising", "consultant",2018);
-		Production ma3 = new Production("Müller", "Max", 1965, "ID001" , "production", "worker",1985);
+		Accounting ma1 = new Accounting("Popow","Oleg",1974,"ID002","accounting","accountant",2000);
+		Advertising ma2 = new Advertising("Martinelli","Silvia",1985,"ID003","advertising","consultant",2018);
+		Production ma3 = new Production("Müller","Max",1965,"ID001","production","worker",1985);
 				
 		ma1.doYourWork("#manufacturing");
 		ma1.giveOutCoS();
