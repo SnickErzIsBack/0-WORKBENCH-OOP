@@ -8,12 +8,12 @@ public class App {
             ausgabe("-----------Areas-----------");
             ausgabe("Fläche Kreis: " + circle.area());
             ausgabe("Fläche Rechteck: " + rectangle.area());
-            ausgabe("Fläche Dreeick: " + triangle.area());
+            ausgabe("Fläche Dreieck: " + triangle.area());
             ausgabe("");
             ausgabe("--------Differenzen--------");
             ausgabe("Fläche(Rechteck - Dreieck): " + areaDiff(rectangle,triangle));
             ausgabe("Fläche(Rechteck - Kreis): " + areaDiff(rectangle,circle));
-            ausgabe("Fläche(Kreis-Dreieck): " + areaDiff(circle,triangle));
+            ausgabe("Fläche(Kreis - Dreieck): " + areaDiff(circle,triangle));
         }
 
         //Shape - Shape ...One Size fits all...
