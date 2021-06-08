@@ -1,4 +1,4 @@
-public interface IFly {
+public interface IFly{
     
     public abstract String fly();
 
