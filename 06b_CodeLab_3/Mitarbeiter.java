@@ -37,7 +37,7 @@ abstract class Mitarbeiter extends Person {
 		
 	// Ausgabe2 // Betriebszugehörigkeit
 	protected void giveOutCoS() {
-		System.out.println("I'm working here for " + (currentYear-hiredYear) + " Years.");		
+		System.out.println("I've been working here for " + (currentYear-hiredYear) + " Years.");		
 	}
 
 	// Ausgabe3 //  Verhalten Arbeitsbeginn
