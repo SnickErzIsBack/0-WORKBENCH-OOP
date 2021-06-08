@@ -4,18 +4,25 @@ public class App {
         HoneyBee queen = new Queen();
         HoneyBee worker = new Worker();
         HoneyBee drone = new Drone();
+        Bird bird = new Bird();
 
         ausgabe(queen.doYourJob());
-        ausgabe(worker.doYourJob());
-        ausgabe(drone.doYourJob());
-
-        ausgabe("----------------");
-
         ausgabe(queen.fly());
+
+        ausgabe("--------------------------------");
+
+        ausgabe(worker.doYourJob());
         ausgabe(worker.fly());
+        
+        ausgabe("--------------------------------");
+
+        ausgabe(drone.doYourJob());
         ausgabe(drone.fly());
 
-        ausgabe("----------------");
+        ausgabe("--------------------------------");
+
+        ausgabe(bird.fly());
+        ausgabe(bird.doYourJob());
 
         // Das sollte eigentlich nicht möglich sein
 	    // --> Lösung: Abstrakte Klasse 
@@ -28,4 +35,4 @@ public class App {
         System.out.println(outStr);
     }
 
-}
+} //EoF
