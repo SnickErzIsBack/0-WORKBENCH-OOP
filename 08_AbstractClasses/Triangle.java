@@ -11,5 +11,4 @@ public class Triangle extends Shape{
     public double area() {
         return baseLine * height / 2;
     }
-    
 }//EoF

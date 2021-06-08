@@ -9,8 +9,7 @@ public class Rectangle extends Shape{
 
     @Override
     public double area() {
-    //return Math.PI * radius * radius;
-    return aSide*bSide;
+        //return Math.PI * radius * radius;
+        return aSide*bSide;
     }
-    
 } //EoF
