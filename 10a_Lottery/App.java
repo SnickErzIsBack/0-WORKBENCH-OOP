@@ -1,6 +1,4 @@
-/**
- *  Literatur-Beispiel | 6 aus 49
- */
+//  Literatur-Beispiel | 6 aus 49
 
 import java.util.Random;
 import java.util.Arrays;
@@ -32,10 +30,8 @@ public class App {
 							break;
 						}
 					}
-				}while(isRepeated);
-			
+				}while(isRepeated);		
 			lotteryArray[indexDrawn] = randomNumber;  // Zahl ins Array
-					
 		}
 		
 		Arrays.sort(lotteryArray);
