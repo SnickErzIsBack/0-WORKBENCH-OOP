@@ -18,7 +18,7 @@ public class App {
 		{
 			do {
 					isRepeated = false; // 1 to 49
-					randomNumber = rand.nextInt(max + 1 - min) + min;
+					randomNumber = rand.nextInt((max - min) + 1) + min;
 					// check for repeated number against the filled non-zero elements			
 					for (int k = 0; k <= indexDrawn; k++) 
 					{
