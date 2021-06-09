@@ -8,7 +8,7 @@ public class Bird implements IFly, IFeathers{
     
         @Override
             public String fly() {
-                return ("I can fly, too!");
+                return ("I can fly fast, too! 25mph! Ha!");
         }
     
     }//EoF

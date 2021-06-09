@@ -2,7 +2,7 @@ final class Queen extends HoneyBee{
 
     @Override
     public String fly() {
-        return "I believe, I can fly!";
+        return "I'm the Queen, I fly @12mph!";
     }
 
     @Override

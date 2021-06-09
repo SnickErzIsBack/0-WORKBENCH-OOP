@@ -2,7 +2,7 @@ final class Drone extends HoneyBee{
 
     @Override
     public String fly() {
-        return "I believe, I can fly!";
+        return "I am a Drone, I fly @15mph!";
     }
 
     @Override
