@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class App {
 
@@ -7,7 +7,7 @@ public class App {
 		
 		// Deklaration: int
 		int [] intArr = new int [4];
-		ausgabe("Länge Array: " + intArr.length);	
+		ausgabe("Lï¿½nge Array: " + intArr.length);	
 //		
 //		// Index
 //		ausgabe("3. Element " + intArr[2]);
@@ -86,7 +86,7 @@ public class App {
 //		System.out.println("");
 //		System.out.println("---- fill() ----");
 //		
-//		//.. Array füllen
+//		//.. Array fï¿½llen
 //		Arrays.fill(letters, '0');
 //		for (int i = 0; i < letters.length; i++) {
 //			ausgabe(String.valueOf(letters[i]));
