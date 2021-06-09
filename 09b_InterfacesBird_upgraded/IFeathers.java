@@ -1,5 +1,5 @@
 public interface IFeathers {
 
-    String feathers();
+    String hasFeathers();
 
 }//EoF

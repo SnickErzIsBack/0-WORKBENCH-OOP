@@ -21,7 +21,7 @@ public class App {
         
         ausgabe("--------------------------------");
 
-        ausgabe(bird.feathers());
+        ausgabe(bird.hasFeathers());
         ausgabe(bird.fly());
 
         ausgabe("--------------------------------");

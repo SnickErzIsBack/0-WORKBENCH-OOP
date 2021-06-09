@@ -2,7 +2,7 @@ public class Bird implements IFly, IFeathers{
         // Can the Can - https://www.youtube.com/watch?v=fZxhyMx1xqg
     
         @Override
-            public String feathers() {
+            public String hasFeathers() {
                 return ("I'm a Bird, I got feathers!");
         }
     
