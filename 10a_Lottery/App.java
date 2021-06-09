@@ -1,6 +1,5 @@
 /**
  *  Literatur-Beispiel | 6 aus 49
- * 
  */
 
 import java.util.Random;
@@ -16,16 +15,13 @@ public class App {
 		int[] lotteryArray = new int[slots];
 		int randomNumber = 0;
 		boolean isRepeated;
-				
 		
 		for (int indexDrawn = 0; indexDrawn < slots; indexDrawn++) // 6x
 		{
 			do {
-					isRepeated = false;
-					// 1 to 49
+					isRepeated = false; // 1 to 49
 					randomNumber = rand.nextInt(max + 1 - min) + min;
-					// check for repeated number against
-					// the filled non-zero elements			
+					// check for repeated number against the filled non-zero elements			
 					for (int k = 0; k <= indexDrawn; k++) 
 					{
 						//check against each filled non-zero elements
@@ -36,8 +32,7 @@ public class App {
 							break;
 						}
 					}
-				
-				}while (isRepeated);
+				}while(isRepeated);
 			
 			lotteryArray[indexDrawn] = randomNumber;  // Zahl ins Array
 					
@@ -50,7 +45,5 @@ public class App {
 		{
 			System.out.print(lotteryArray[i] + " ");
 		}
-		
 	}
-
-}
+} //EoF
