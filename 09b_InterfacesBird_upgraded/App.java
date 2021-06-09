@@ -26,8 +26,8 @@ public class App {
 
         ausgabe("--------------------------------");
 
-        flightTournament(queen);
         flightTournament(drone);
+        flightTournament(queen);
         flightTournament(worker);
         flightTournament(bird);
         
