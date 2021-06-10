@@ -9,7 +9,7 @@ public class Test {
 	private int age;
 	
 	// Sichtbarkeit | access (access modifiers)
-	// public --> alle d�rfen sehen/schreiben (+)
+	// public --> alle duerfen sehen/schreiben (+)
 	// private --> NUR die eigene Klasse / Objekt (-)
 	// protected --> NUR die eigene Klasse / Objekt + Subklassen (#)
 	
@@ -18,35 +18,19 @@ public class Test {
 		this.age = age;
 	}
 
-	/**
-	 * @return the name
-	 */
 	public String getName() {
 		return name;
 	}
 
-	/**
-	 * @param name the name to set
-	 */
 	public void setName(String name) {
 		this.name = name;
 	}
 
-	/**
-	 * @return the age
-	 */
 	public int getAge() {
 		return age;
 	}
 
-	/**
-	 * @param age the age to set
-	 */
 	public void setAge(int age) {
 		this.age = age;
 	}
-
-	
-	
-	
-}
+}//EoF
